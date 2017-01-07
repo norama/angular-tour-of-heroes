@@ -66,11 +66,10 @@ import { OnInit } from '@angular/core';
     border-radius: 4px 0 0 4px;
   }
 `],
-	providers: [HeroService]
+	providers: []
 
 })
 export class HeroesComponent implements OnInit { 
-  	title = 'Tour of Heroes'; 
 	  heroes: Hero[];
 	  selectedHero: Hero;
 
