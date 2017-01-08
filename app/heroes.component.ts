@@ -70,7 +70,7 @@ import { OnInit } from '@angular/core';
 
 })
 export class HeroesComponent implements OnInit { 
-	  heroes: Hero[];
+    heroes: Hero[] = [];
 	  selectedHero: Hero;
 
 	  constructor(private heroService: HeroService) { }
